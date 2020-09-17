@@ -1,7 +1,7 @@
 # EX294 Preparation and General Ansible Studies
 
 ### Lab Setup ###
-*Note: I configured 5 servers (4 Centos 8, 1 Ubuntu 20.04) for labs:*
+*Note: I configured 5 servers for labs:*
  - 4 Centos 8 Servers 
  - 1 Ubuntu 20.04
  
