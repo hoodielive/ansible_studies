@@ -7,13 +7,14 @@
 
 ## Two formats for inventory file. 
 1. INI-based file format:
+```
 [webservers]
 web01.example.com
 web02.example.com
 
 [dbservers]
 db[01:04].example.com (db01-db04)
-
+```
 2. YAML-based file format: 
 ```
 all:
