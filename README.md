@@ -3,7 +3,7 @@
 ### Lab Setup ###
 *Note: I configured 5 servers for labs:*
  - 4 Centos 8 Servers 
- - 1 Ubuntu 20.04
+ - 1 Ubuntu 20.04 Server
  
 1. Server1 8GB, IPA Server to have enterprise services such as Kerberos, DNS, MAIL, FTP, HTTPS, etc
 2. Server2 8GB, Ansible Control Node.
