@@ -1,7 +1,10 @@
 # EX294 Preparation and General Ansible Studies
 
 ### Lab Setup ###
-Note: I configured 5 servers (4 Centos 8, 1 Ubuntu 20.04) for labs:
+*Note: I configured 5 servers (4 Centos 8, 1 Ubuntu 20.04) for labs:*
+ - 4 Centos 8 Servers 
+ - 1 Ubuntu 20.04
+ 
 1. Server1, IPA Server to have enterprise services to managed Kerberos, DNS, MAIL, FTP, HTTPS, etc
 2. Server2, Ansible Control Node.
 3. Server3, Ansible Node1. 
