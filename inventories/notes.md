@@ -15,7 +15,7 @@ web02.example.com
 db[01:04].example.com (db01-db04)
 
 2. YAML-based file format: 
-
+```
 all:
   hosts:
     mail.example.com
@@ -27,4 +27,4 @@ all:
     dbservers:
       hosts:
         db[01:04].example.com
-
+```
