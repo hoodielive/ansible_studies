@@ -20,8 +20,9 @@
 * 4GB  swap 
 * 14GB free space 
 
-### IP Address Space in VMWARE/VBOX ###
-1. Private Host IP Range on the 10.0.3.0/24 subnet - rhce.lab (namespace).
+### IP Address Space in VBOX ###
+1. Private Host IP Range on the 10.0.3.0/24 subnet - rhce.lab (namespace). 
+2. I have enabled port-forwarding for NAT for 10.0.3.10 as my Bastion server interface.
   * IPA Server 10.0.3.2/24
   * Ansible Control Node 10.0.3.10/24
   * Ubuntu 20.04 - Node1 10.0.3.11/24
