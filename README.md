@@ -15,7 +15,7 @@ Note: I configured 5 servers (4 Centos 8, 1 Ubuntu 20.04) for labs:
 * 20GB /     xfs (root) 
 * 20GB /var  xfs 
 * 4GB  swap 
-** 14GB free space 
+* 14GB free space 
 
 ### IP Address Space ###
 1. Private Host IP Range on the 10.0.3.0/24 subnet - rhce.lab (namespace).
