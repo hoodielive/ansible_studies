@@ -93,8 +93,8 @@ Note: I configured 5 servers (4 Centos 8, 1 Ubuntu 20.04) for labs:
 
 ### IP Address Space ###
 1. Private Host IP Range on the 10.0.3.0/24 subnet - rhce.lab (namespace).
-  a. IPA Server 10.0.3.2/24
-  b. Ansible Control Node 10.0.3.10/24
-  c. Ubuntu 20.04 - Node1 10.0.3.11/24
-  d. Centos 8 - Node2 10.0.3.12/24
-  e. Centos 8 - Node3 10.0.3.13/24
+  * IPA Server 10.0.3.2/24
+  * Ansible Control Node 10.0.3.10/24
+  * Ubuntu 20.04 - Node1 10.0.3.11/24
+  * Centos 8 - Node2 10.0.3.12/24
+  * Centos 8 - Node3 10.0.3.13/24
