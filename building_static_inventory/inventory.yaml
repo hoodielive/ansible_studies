@@ -1,0 +1,7 @@
+---
+
+prod:
+  node2.rhce.lab
+dev:
+  node1.rhce.lab
+
