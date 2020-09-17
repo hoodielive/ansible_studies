@@ -81,4 +81,20 @@ Be able to perform all tasks expected of a Red Hat Certified System Administrato
 * Use Ansible Vault in playbooks to protect sensitive data 
 * Use provided documentation to look up specific information about Ansible modules and commands
 
-*As with all Red Hat performance-based exams, configurations must persist after reboot without intervention.
+*As with all Red Hat performance-based exams, configurations must persist after reboot without intervention.*
+
+### Lab Setup ###
+Note: I configured 5 servers (4 Centos 8, 1 Ubuntu 20.04) for labs:
+1. Server1, IPA Server to have enterprise services to managed Kerberos, DNS, MAIL, FTP, HTTPS, etc
+2. Server2, Ansible Control Node.
+3. Server3, Ansible Node1. 
+4. Server4, Ansible Node2.
+5. Server5, Ansible Node3. 
+
+### IP Address Space ###
+1. Private Host IP Range on the 10.0.3.0/24 subnet - rhce.lab (namespace).
+  a. IPA Server 10.0.3.2/24
+  b. Ansible Control Node 10.0.3.10/24
+  c. Ubuntu 20.04 - Node1 10.0.3.11/24
+  d. Centos 8 - Node2 10.0.3.12/24
+  e. Centos 8 - Node3 10.0.3.13/24
