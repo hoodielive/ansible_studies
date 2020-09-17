@@ -8,6 +8,15 @@ Note: I configured 5 servers (4 Centos 8, 1 Ubuntu 20.04) for labs:
 4. Server4, Ansible Node2.
 5. Server5, Ansible Node3. 
 
+### Partition Scheme ###
+1. 70Gb VHD on rootvg 
+* 2GB  /boot xfs 
+* 10GB /home xfs 
+* 20GB /     xfs (root) 
+* 20GB /var  xfs 
+* 4GB  swap 
+** 14GB free space 
+
 ### IP Address Space ###
 1. Private Host IP Range on the 10.0.3.0/24 subnet - rhce.lab (namespace).
   * IPA Server 10.0.3.2/24
@@ -16,7 +25,7 @@ Note: I configured 5 servers (4 Centos 8, 1 Ubuntu 20.04) for labs:
   * Centos 8 - Node2 10.0.3.12/24
   * Centos 8 - Node3 10.0.3.13/24
 
-## EX294 Objectives
+### EX294 Objectives 
 
 As an RHCE exam candidate, you should be able to handle all responsibilities expected of a Red Hat Certified System Administrator, including these tasks:
 
