@@ -5,7 +5,7 @@
  - 4 Centos 8 Servers 
  - 1 Ubuntu 20.04
  
-1. Server1 8GB, IPA Server to have enterprise services to managed Kerberos, DNS, MAIL, FTP, HTTPS, etc
+1. Server1 8GB, IPA Server to have enterprise services such as Kerberos, DNS, MAIL, FTP, HTTPS, etc
 2. Server2 8GB, Ansible Control Node.
 3. Server3 4GB, Ansible Node1. 
 4. Server4 4GB, Ansible Node2.
@@ -20,7 +20,7 @@
 * 4GB  swap 
 * 14GB free space 
 
-### IP Address Space ###
+### IP Address Space in VMWARE/VBOX ###
 1. Private Host IP Range on the 10.0.3.0/24 subnet - rhce.lab (namespace).
   * IPA Server 10.0.3.2/24
   * Ansible Control Node 10.0.3.10/24
