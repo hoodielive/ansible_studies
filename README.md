@@ -5,11 +5,11 @@
  - 4 Centos 8 Servers 
  - 1 Ubuntu 20.04
  
-1. Server1, IPA Server to have enterprise services to managed Kerberos, DNS, MAIL, FTP, HTTPS, etc
-2. Server2, Ansible Control Node.
-3. Server3, Ansible Node1. 
-4. Server4, Ansible Node2.
-5. Server5, Ansible Node3. 
+1. Server1 8GB, IPA Server to have enterprise services to managed Kerberos, DNS, MAIL, FTP, HTTPS, etc
+2. Server2 8GB, Ansible Control Node.
+3. Server3 4GB, Ansible Node1. 
+4. Server4 4GB, Ansible Node2.
+5. Server5 4GB, Ansible Node3. 
 
 ### Partition Scheme ###
 1. 70Gb VHD on rootvg 
