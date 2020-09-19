@@ -11,7 +11,7 @@
     #!/bin/bash 
     # hello aeon script
 
-    echo "Hello Aeon"!
+    echo "Hello Aeon"
 
     ```
 
