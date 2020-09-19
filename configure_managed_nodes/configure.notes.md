@@ -115,5 +115,13 @@ node3.rhce.lab | CHANGED => {
     "state": "file",
     "uid": 1000
 }
+```
 
+# Example4:
+```
+$ ansible dbservers -a "cat /tmp/secretFile"
+db02.rhce.lab | CHANGED | rc=0 >>
+This is a test
+db01.rhce.lab | CHANGED | rc=0 >>
+This is a test
 ```
