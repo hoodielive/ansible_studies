@@ -2,14 +2,20 @@
 
 ### Lab Setup ###
 *Note: I configured 5 servers for labs:*
- - 4 Centos 8 Servers 
+ - 10 Centos 8 Servers 
  - 1 Ubuntu 20.04 Server
  
-1. Server1 8GB, IPA Server to have enterprise services such as Kerberos, DNS, MAIL, FTP, HTTPS, etc
-2. Server2 8GB, Ansible Control Node.
-3. Server3 4GB, Ansible Node1. 
-4. Server4 4GB, Ansible Node2.
-5. Server5 4GB, Ansible Node3. 
+1. Server1    8GB, IPA Server to have enterprise services such as Kerberos, DNS, MAIL, FTP, HTTPS, etc., (ipaserver.rhce.lab).
+2. Server2    8GB, Ansible Control Node (control-node.rhce.lab).
+3. Server3    2GB, Ansible Node1 (node1.rhce.lab).
+4. Server4    2GB, Ansible Node2 (node2.rhce.lab).
+5. Server5    2GB, Ansible Node3 (node3.rhce.lab).
+6. Server6    4GB, Ansible Node4 (mail.rhce.lab).
+7. Server7    4GB, Ansible Node5 (db01.rhce.lab).
+8. Server8    4GB, Ansible Node6 (db02.rhce.lab).
+9. Server9    2GB, Ansible Node7 (web01.rhce.lab).
+10. Server10  2GB, Ansible Node8 (web02.rhce.lab).
+11. Server11, 8GB, Ansible Node9 (pulp.rhce.lab).
 
 ### Partition Scheme ###
 1. 70Gb VHD on rootvg 
