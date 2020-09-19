@@ -6,6 +6,7 @@
   * Exec permission needs to be added to the script.
   * Exec the script using the 'absolute path' or './script' (if it occurs in the cwd).
   * Example:
+
     ```bash 
     #!/bin/bash 
     # hello aeon script
