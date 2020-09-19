@@ -1,2 +1,2 @@
 --- 
-ansible_host: control.rhce.lab
+ansible_host: node3
