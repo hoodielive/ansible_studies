@@ -17,6 +17,7 @@
       * Use '-b' option to exec commands as the 'root' user.
       * The '-a' option may be used without the -m option to run 'shell' commands.
 - Example:
+```
 	$ ansible dbservers -i ../infra/inventory/inventory.ini -m ping
 		db01.rhce.lab | SUCCESS => {
 				"ansible_facts": {
@@ -32,7 +33,7 @@
 				"changed": false,
 				"ping": "pong"
 		}
-
+```
 ## Common Uses 
 * File transfer
 * Package Management 
