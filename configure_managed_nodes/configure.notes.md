@@ -27,7 +27,7 @@
 * Software deployment from Git
 * Playbook creation testing
 
-- Example:
+### Example:
 ```
 $ ansible dbservers -i ../infra/inventory/inventory.ini -m ping
 db01.rhce.lab | SUCCESS => {
