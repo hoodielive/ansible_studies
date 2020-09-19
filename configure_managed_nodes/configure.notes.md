@@ -5,3 +5,14 @@
 2. Distribute SSH keys: 'ssh-copy-id rhce@<node>' or 'for servers in $(cat list_of_servers.txt); do ssh-copy-id rhce@$servers; done'
 3. Escalate Privileges: '#visudo' && 'echo "user_name ALL=(ALL) NOPASSWD: ALL | tee -a /etc/sudoers.d/users.sudoers"'
 4. Control Node: Managed Node 1 and Managed Node 2.
+
+## Validation
+- Use Ansible ad-hoc commands:
+  * 'ansible host -i inventory_file -m module -a "args"'
+      * Used to execute quick one-liners.
+      * Useful for non-routine tasks.
+      * Execute them by using ansible command (ansible-playbook is used for 'playbooks').
+      * Args require double quotes ("") and are 'space' delimited.
+      * Commands are executed as the user running Ansible.
+      * Use '-b' option to exec commands as the 'root' user.
+      * The '-a' option may be used without the -m option to run 'shell' commands.
