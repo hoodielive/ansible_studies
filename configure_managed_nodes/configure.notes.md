@@ -29,7 +29,7 @@
 
 ### Example:
 ```
-$ ansible dbservers -i ../infra/inventory/inventory.ini -m ping
+$ ansible dbservers -i inventory/inventory.ini -m ping
 db01.rhce.lab | SUCCESS => {
 		"ansible_facts": {
 				"discovered_interpreter_python": "/usr/libexec/platform-python"
