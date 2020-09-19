@@ -16,3 +16,12 @@
 * User
     * Manage user accounts and attributes.
     * Common parameters: - name (required), state, group, and groups.
+* Copy
+    * Copy files to a remote host.
+    * Common parameters: - src, dest(required), owner, group, and mode.
+* File
+    * Manages files and directories.
+    * Common parameters: - path(required), state, owner, group and mode.
+* Git
+    * Interact with git repositories.
+    * Common parameters: - repo(required), dest(required), and clone.
