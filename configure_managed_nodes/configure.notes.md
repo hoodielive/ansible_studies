@@ -16,3 +16,29 @@
       * Commands are executed as the user running Ansible.
       * Use '-b' option to exec commands as the 'root' user.
       * The '-a' option may be used without the -m option to run 'shell' commands.
+- Example:
+	$ ansible dbservers -i ../infra/inventory/inventory.ini -m ping
+		db01.rhce.lab | SUCCESS => {
+				"ansible_facts": {
+						"discovered_interpreter_python": "/usr/libexec/platform-python"
+				},
+				"changed": false,
+				"ping": "pong"
+		}
+		db02.rhce.lab | SUCCESS => {
+				"ansible_facts": {
+						"discovered_interpreter_python": "/usr/libexec/platform-python"
+				},
+				"changed": false,
+				"ping": "pong"
+		}
+
+## Common Uses 
+* File transfer
+* Package Management 
+* User and group management 
+* Managing services
+* Fact gathering 
+* General System Information 
+* Software deployment from Git
+* Playbook creation testing
