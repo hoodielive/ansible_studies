@@ -1,12 +1,17 @@
 #!/usr/bin/env bash
 
+# NOTE, this is not a finished script - I added it just as a place holder
+# and to demonstrate how you would configure IDM. Its not finished yet.
+
 ipa-server-install \
 --realm=RHCE.LAB \
 --domain=rhce.lab \
---ds-password=Pr@phecy1 \
---admin-password=pr@phet1 \
+--ds-password=password\
+--admin-password=passWord \
 --hostname=ipaserver.rhce.lab \
 --idstart=60000 \
 --ntp-pool=0.ro.pool.ntp.org \
 --setup-dns
 
+# Set DNS records. 
+ipa dnsrecord-add 
