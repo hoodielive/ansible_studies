@@ -18,21 +18,21 @@
       * The '-a' option may be used without the -m option to run 'shell' commands.
 - Example:
 ```
-	$ ansible dbservers -i ../infra/inventory/inventory.ini -m ping
-		db01.rhce.lab | SUCCESS => {
-				"ansible_facts": {
-						"discovered_interpreter_python": "/usr/libexec/platform-python"
-				},
-				"changed": false,
-				"ping": "pong"
-		}
-		db02.rhce.lab | SUCCESS => {
-				"ansible_facts": {
-						"discovered_interpreter_python": "/usr/libexec/platform-python"
-				},
-				"changed": false,
-				"ping": "pong"
-		}
+$ ansible dbservers -i ../infra/inventory/inventory.ini -m ping
+db01.rhce.lab | SUCCESS => {
+		"ansible_facts": {
+				"discovered_interpreter_python": "/usr/libexec/platform-python"
+		},
+		"changed": false,
+		"ping": "pong"
+}
+db02.rhce.lab | SUCCESS => {
+		"ansible_facts": {
+				"discovered_interpreter_python": "/usr/libexec/platform-python"
+		},
+		"changed": false,
+		"ping": "pong"
+}
 ```
 ## Common Uses 
 * File transfer
