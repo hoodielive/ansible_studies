@@ -1,0 +1,19 @@
+#!/bin/bash 
+
+# Create the user osa.
+
+ansible labservers -i ../inventory/inventory.ini -b -m user -a "name=osa"
+
+# Create the demo directory in osa's home directory.
+
+ansible labservers -i ../inventory/inventory.ini -b  -m file -a "path=/home/osa/demo  state=directory owner=osa group=osa mode=0755"
+
+# Copy testFile to osa's home directory. 
+
+ansible labservers -i ../inventory/inventory.ini  -b -m copy -a "src=~/Clones/ansible_studies/infra/ansible/secretFile dest=/home/osa/secretFile mode=0644 owner=osa group=osa"
+
+# Install httpd to the webservers group, then enable and start the httpd service. 
+
+ansible webservers -i ../inventory/inventory.ini -b -m dnf -a "name=httpd state=latest"
+
+ansible webservers -i ../inventory/inventory.ini -b -m service -a "name=httpd enabled=yes state=started"
