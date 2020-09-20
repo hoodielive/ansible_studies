@@ -1,0 +1,9 @@
+---
+- hosts: node3
+  become: yes
+  tasks:
+    - name: add epel-repo to host
+      yum_repository:
+        name: epel repo
+        file: epel
+        state: absent

@@ -1,0 +1,10 @@
+---
+- hosts: labservers
+  become: yes
+  tasks:
+    - name: install a package
+      dnf:
+        name: 
+          - httpd  
+          - vsftpd  
+        state: absent
