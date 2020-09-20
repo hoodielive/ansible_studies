@@ -1,5 +1,5 @@
 ---
-- hosts: labservers
+- hosts: $servername
   tasks: 
     - name: Create a File.
       file:
