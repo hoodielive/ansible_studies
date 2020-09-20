@@ -1,5 +1,5 @@
 ---
-- hosts: $servername
+- hosts: node3
   tasks: 
     - name: Create a File.
       file:
