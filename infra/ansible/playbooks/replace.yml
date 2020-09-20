@@ -1,0 +1,15 @@
+---
+- hosts: node1.rhce.lab
+  become: yes
+  tasks:
+    - name: replace a line with testFile2
+      lineinfile:
+        path: /tmp/testFile2
+        regexp: "^added.*$"
+        line: "line replaced by the lineinfile module"
+    - name: replace line in the testFile3
+      replace:
+        path: /tmp/testFile3
+        regexp: ".*module$"
+        replace: "line replaced by replace module"
+
