@@ -1,0 +1,14 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: restart services
+      systemd:
+        name: httpd
+        state: restarted
+        enabled: yes
+    - name: restart firewalld services
+      systemd:
+        name: httpd
+        state: restarted
+        enabled: yes

@@ -1,0 +1,14 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: start and enable the httpd service
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+    - name: start and enable the firewalld service
+      service:
+        name: firewalld
+        state: started
+        enabled: yes
