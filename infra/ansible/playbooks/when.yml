@@ -1,0 +1,9 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: copy file
+      copy:
+        src: ~/Clones/ansible_studies/infra/ansible/ancillary_files/index.html
+        dest: /var/www/html/index.html
+      when: ansible_hostname == "web02"
