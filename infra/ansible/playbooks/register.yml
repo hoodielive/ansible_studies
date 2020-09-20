@@ -1,10 +1,14 @@
 ---
 - hosts: node3
   tasks: 
-    - name: Create a File.
+    - name: Create a File
       file:
         path: /tmp/testFile
         state: touch 
       register: var
-    - name: Display debug message.
+    - name: Display debug message
       debug: msg="Register output is {{ var }}" 
+    - name: Edit file
+      lineinfile:
+        path: /tmp/testFile
+        line: "The UID is {{ var.uid }} and gid is {{ var.gid }}"
