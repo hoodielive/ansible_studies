@@ -10,7 +10,7 @@
       user:
         name: "{{ item }}"
         groups: apache
-     loop:
+      loop:
         - kunte
         - gbemi
         - ojise
@@ -24,5 +24,26 @@
     - name: start and enable httpd
       service:
         name: httpd
+        state: started
+        enabled: yes
+- hosts: dbservers
+  become: yes
+  tasks:
+    - name: install postgresql
+      dnf:
+        name: postgresql-server
+        state: latest
+    - name: initialize db cluster
+      command: /usr/bin/postgresql-setup --initdb
+    - name: create users
+      user:
+        name: "{{ item }}"
+        groups: postgres
+      loop:
+        - papatunde
+        - papalegba
+    - name: start and enable postgres
+      service:
+        name: postgresql
         state: started
         enabled: yes
