@@ -6,9 +6,9 @@
         - fetch:
             src: /tmp/blockFile
             dest: /tmp
-     rescue:
-       - debug:
-           msg: "The file doesn't exist on {{ ansible_hostname }}"
-     always:
-       - debug:
-           msg: "Playbook is finished!"
+      rescue:
+        - debug:
+            msg: "The file doesn't exist on {{ ansible_hostname }}"
+      always:
+        - debug:
+            msg: "Playbook is finished!"

@@ -1,0 +1,28 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: install apache
+      dnf:
+        name: httpd
+        state: latest
+    - name: create users and add them to the apache group
+      user:
+        name: "{{ item }}"
+        groups: apache
+     loop:
+        - kunte
+        - gbemi
+        - ojise
+    - name: create index.html file
+      template:
+        src: ~/Clones/ansible_studies/infra/ansible/templates/index.j2
+        dest: /var/www/html/index.html
+        owner: apache
+        group: apache
+        mode: 0644
+    - name: start and enable httpd
+      service:
+        name: httpd
+        state: started
+        enabled: yes
