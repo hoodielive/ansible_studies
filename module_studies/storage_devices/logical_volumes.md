@@ -11,6 +11,8 @@ The lvg module, creates, removes and resizes volume groups.
     vg: vg_name
     state: present|absent
 ```
+### Example of lvol module 
+The lvol module: creates, removes and resizes logical volumes
 ```yaml
 - name: show options for lvol module
   lvol:
