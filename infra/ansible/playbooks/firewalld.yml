@@ -1,0 +1,26 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: Construct the firewall rules for http/https
+      firewalld:
+        zone: public
+        service: "{{ item }}"
+        permanent: yes
+        immediate: yes
+        state: disabled
+      loop:
+        - http
+        - https
+    - name: add firewalld rules by port(s) 8080-8084
+      firewalld:
+        port: 8080-8084/tcp
+        permanent: yes
+        immediate: yes
+        state: disabled
+    - name: add firewall rules using a rich rule forward port 443 to 8443
+      firewalld:
+        rich_rule: rule family=ipv4 forward-port port=443 protocol=tcp to-port=8443
+        permanent: yes
+        immediate: yes
+        state: disabled

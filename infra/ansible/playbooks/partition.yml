@@ -1,0 +1,16 @@
+---
+- hosts: node1.rhce.lab
+  become: yes
+  tasks:
+    - name: create partitions
+      parted:
+        device: /dev/sdb
+        number: 1
+        state: present
+        part_end: 1GiB
+        label: msdos
+        flags: [lvm]
+        #loop:
+        #- /dev/sdb1
+        #- /dev/sdb2
+
