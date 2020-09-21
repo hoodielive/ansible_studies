@@ -1,0 +1,7 @@
+---
+- hosts: node1.rhce.lab
+  tasks:
+    - name: push out info template
+      template:
+        src: ~/Clones/ansible_studies/infra/ansible/templates/info.j2
+        dest: /tmp/templated_file.txt
