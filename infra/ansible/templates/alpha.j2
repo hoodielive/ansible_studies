@@ -1,0 +1,6 @@
+hostname = {{ ansible_hostname }}
+operating = {{ ansible_distribution }} {{ ansible_distribution_version }} 
+ipv4 = {{ ansible_default_ipv4.address }}
+ipv6 = {{ ansible_default_ipv6.address }}
+interfaces = {{ ansible_interfaces| join(', ') }}
+block = {{ ansible_devices| join(', ') }}

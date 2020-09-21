@@ -1,7 +1,8 @@
 ---
-- hosts: node1.rhce.lab
+- hosts: node3
+  become: yes
   tasks:
-    - name: push out info template
+    - name: Push the damn info template
       template:
-        src: ~/Clones/ansible_studies/infra/ansible/templates/info.j2
-        dest: /tmp/templated_file.txt
+        src: /home/rhce/Clones/ansible_studies/infra/ansible/templates/index.j2
+        dest: /tmp/templatedFile

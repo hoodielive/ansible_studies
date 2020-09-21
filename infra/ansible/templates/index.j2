@@ -1,1 +1,6 @@
 "This is the index.html on {{ ansible_hostname }}"
+hostname = {{ ansible_distribution }}
+version = {{ ansible_distribution_version }}
+ipv4_address = {{ ansible_default_ipv4.address }}
+interfaces = {{ ansible_interfaces | join(', ') }}
+block Devices = {{ ansible_devices| join(', ') }}
