@@ -1,0 +1,11 @@
+---
+- hosts: node1.rhce.lab
+  become: yes
+  tasks:
+    - name: mount the vg_ansible-lv_ansible filesystem
+      mount:
+        path: /mnt/test_mount
+        src: /dev/mapper/vg_ansible-lv_ansible
+        fstype: ext4
+        state: mounted
+        backup: yes

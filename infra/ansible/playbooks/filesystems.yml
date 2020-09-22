@@ -1,0 +1,8 @@
+---
+- hosts: node1.rhce.lab
+  become: yes
+  tasks:
+    - name: create ext4 filesystem on logical volume
+      filesystem:
+        fstype: ext4
+        dev: /dev/mapper/vg_ansible-lv_ansible
