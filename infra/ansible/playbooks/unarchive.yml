@@ -1,0 +1,10 @@
+---
+- hosts: node3
+  become: yes
+  tasks:
+    - name: Unarchive some shit
+      unarchive:
+        src: /var/tmp/archiving_01.bz2
+        dest: /var/tmp
+        remote_src: yes
+

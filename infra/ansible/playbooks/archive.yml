@@ -1,0 +1,14 @@
+---
+- hosts: node3
+  become: yes
+  tasks:
+    - name: Archive shit
+      archive:
+        path:
+          - /tmp
+          - /var/tmp
+          - /etc
+        exclude_path:
+          - /etc/hosts
+        format: bz2
+        dest: /var/tmp/archiving_01.bz2
