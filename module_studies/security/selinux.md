@@ -17,3 +17,16 @@ The seboolean module toggles SELinux booleans.
     state: no|yes
     persistent: no|yes
 ```
+
+The sefcontext module manages selinux file context mapping definitions.
+```yaml
+- name: show options for the sefcontext module
+  sefcontext:
+    ftype: a|d|etc.
+    reload: yes|no
+    target: '/path/to/dir(/.*)?'
+    setype: selinux_type
+    state: present|absent
+- name: apply new selinux context to the filesystem
+  command: restorecon -irv /path/to/dir
+```
