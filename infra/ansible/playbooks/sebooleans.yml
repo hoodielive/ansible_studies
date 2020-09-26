@@ -11,3 +11,10 @@
         name: httpd_enable_cgi
         state: no
         persistent: no
+    - name: set secontext
+      sefcontext:
+        target: '/var/www/html/webcontent(/.*)?'
+        setype: httpd_sys_content_t
+        state: present
+    - name: run restorecon
+      command: restorecon -irv /var/www/html/webcontent
