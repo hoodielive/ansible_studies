@@ -1,11 +1,7 @@
 --- 
-- hosts: all
+- hosts: pulp.rhce.lab
   become: yes
   tasks: 
-    - name: install zsh
-      dnf:
-        name: zsh
-        state: latest
     - name: create groups
       group:
         name: "{{ item }}"
@@ -18,7 +14,7 @@
         name: arjuna
         comment: arjuna pandu
         shell: /bin/zsh
-        groups: wheel,devops,webadmins
+        groups: devops,webadmins,sudo
         append: yes
         state: present
     - name: create osanyin user 
@@ -26,6 +22,6 @@
         name: osanyin
         comment: osanyin ngurufinda
         shell: /bin/zsh
-        groups: wheel,devops,webadmins
+        groups: devops,webadmins,sudo
         append: yes
         state: present
