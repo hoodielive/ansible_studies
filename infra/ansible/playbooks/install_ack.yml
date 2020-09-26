@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: install ack on all hosts that are redhat variant
+      dnf:
+        name: ack
+        state: latest
+    - name: install ack on all hosts that are debian      
+      apt:
+        name: ack
+        state: latest
+      
+      
