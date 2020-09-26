@@ -1,0 +1,5 @@
+---
+- hosts: node1.rhce.lab
+  become: yes
+  tasks:
+    name: 
