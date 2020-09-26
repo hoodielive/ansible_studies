@@ -1,0 +1,6 @@
+- hosts: node1.rhce.lab
+  become: yes
+  tasks:
+    - name: Create a cron entry
+      cron:
+        name: 
