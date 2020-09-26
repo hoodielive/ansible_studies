@@ -1,14 +1,14 @@
 ---
 - hosts: all
   become: yes
+  vars:
+    - packages:
+      Debian: 
+        - ack
+      RedHat:
+        - ack
   tasks:
     - name: install ack on all hosts that are redhat variant
-      dnf:
-        name: ack
+      package:
+        name: "{{ packages[ansible_os_family] }}"
         state: latest
-    - name: install ack on all hosts that are debian      
-      apt:
-        name: ack
-        state: latest
-      
-      
