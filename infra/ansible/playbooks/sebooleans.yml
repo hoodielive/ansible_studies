@@ -1,0 +1,13 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: set mode to enforcing
+      selinux:
+        policy: targeted
+        state: enforcing
+    - name: enable httpd cgi boolean
+      seboolean:
+        name: httpd_enable_cgi
+        state: no
+        persistent: no
