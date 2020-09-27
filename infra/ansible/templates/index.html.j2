@@ -6,5 +6,5 @@ Welcome to {{ ansible_hostname }}
 	ansible_memory_mb['real']['used'] }}mb out of {{
 	ansible_memory_mb['real']['total'] }}mb.
 
-- The {{ ansible_devices| first }} block device has the following partitions:
-- {{ ansible_devices['sda'][partitions]|join('\n -') }}
+- The {{ ansible_devices | first }} block device has the following partitions:
+- {{ ansible_devices['sda'] | join('\n -') }}
