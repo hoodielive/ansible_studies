@@ -54,3 +54,30 @@ Encrypt a string to be used as a variable in a YAML file:
 ```bash
 ansible-vault encrypt_string --ask-vault-pass 'string_value' --name 'secret_var'
 ```
+
+### Providing Vault Passwords
+
+Use password stored in a text file: 
+```bash
+ansible-playbook --vault-password-file /path/to/password/file playbook.yml
+```
+
+Use password store in a text file with a Vault ID:
+```bash
+ansible-playbook --vault-id label@source playbook.yml
+```
+
+Prompt for a password
+```bash
+ansible-playbook --ask-vault-pass playbook.yml
+```
+
+Prompt for a password with a Vault ID:
+```bash
+ansible-playbook --vault-id label@prompt playbook.yml
+```
+
+Use multiple passwords with vault ID:
+```bash
+ansible-playbook --vault-id label1@password_file --vault-id label2@password_file playbook.yml
+```
