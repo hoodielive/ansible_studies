@@ -1,6 +1,6 @@
 # Understanding Ansible Galaxy:
 
-DO NOT REINVENT THE WHEEL!
+**DO NOT REINVENT THE WHEEL!**
 
 Ansible Galaxy is a large 'public' repository for downloading and sharing community developed roles.
 
