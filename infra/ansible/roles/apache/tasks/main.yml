@@ -18,13 +18,13 @@
     state: latest
 - name: deploy httpd.conf template
   template:
-    src: httpd.conf.j2
+    src: /home/rhce/Clones/ansible_studies/infra/ansible/roles/apache/templates/http.conf.j2
     dest: /etc/httpd/conf/httpd.conf
     backup: yes
   notify: "restart apache"
 - name: deploy index.html template
   template:
-    src: index.html.j2
+    src: /home/rhce/Clones/ansible_studies/infra/ansible/roles/apache/templates/index.html.j2
     dest: "{{ apache_content_dir }}/index.html"
     backup: yes
 - name: start and enable httpd service

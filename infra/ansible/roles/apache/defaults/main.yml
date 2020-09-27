@@ -1,5 +1,5 @@
 ---
 # defaults file for apache
 apache_content_dir: /var/www/html/webcontent
-apache_http_port: 8080
+http_port: 8080
 apache_admin: rhce

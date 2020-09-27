@@ -10,14 +10,14 @@ Include conf.modules.d/*.conf
 User apache
 Group apache
 
-ServerAdmin {{ admin }}@{{ ansible_hostname }}
+ServerAdmin {{ apache_admin }}@{{ ansible_hostname }}
 
 <Directory />
 	AllowOverride none
 	Require all denied
 </Directory>
 
-DocumentRoot "{{ content_dir }}"
+DocumentRoot "{{ apache_content_dir }}"
 
 <Directory "{{ apache_content_dir }}">
 	AllowOverride None
