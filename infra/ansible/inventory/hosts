@@ -19,3 +19,13 @@ mail.rhce.lab
 
 [ipaserver]
 ipaserver.rhce.lab
+
+[all]
+node1.rhce.lab
+node2.rhce.lab
+node3.rhce.lab
+web01.rhce.lab
+web02.rhce.lab
+db01.rhce.lab
+db02.rhce.lab
+

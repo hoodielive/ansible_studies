@@ -1,0 +1,27 @@
+--- 
+- hosts: pulp.rhce.lab
+  become: yes
+  tasks: 
+    - name: create groups
+      group:
+        name: "{{ item }}"
+        state: present
+      loop:
+        - devops
+        - webadmins
+    - name: create arjuna user 
+      user: 
+        name: arjuna
+        comment: arjuna pandu
+        shell: /bin/zsh
+        groups: devops,webadmins,sudo
+        append: yes
+        state: present
+    - name: create osanyin user 
+      user: 
+        name: osanyin
+        comment: osanyin ngurufinda
+        shell: /bin/zsh
+        groups: devops,webadmins,sudo
+        append: yes
+        state: present

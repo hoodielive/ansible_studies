@@ -1,0 +1,16 @@
+# This file is the main Apache HTTP server configuration file.
+# Ansible Managed
+
+ServerRoot "/etc/httpd"
+Listen {{ http_port }}
+Include conf.modules.d/*.conf
+
+User apache
+Group apache
+
+ServerAdmin {{ apache_admin }}@{{ ansible_hostname }}
+<Directory />
+	AllowOverride none
+	Require all denied
+</Directory>
+DocumentRoot "{{ content_dir }}"

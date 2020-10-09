@@ -1,0 +1,8 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: set mode to weak (permissive)
+      selinux:
+        policy: targeted
+        state: permissive

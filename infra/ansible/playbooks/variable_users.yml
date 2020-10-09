@@ -1,0 +1,13 @@
+---
+- hosts: node1.rhce.lab
+  become: yes
+  vars_files:
+    - /home/rhce/Clones/ansible_studies/infra/ansible/vars/users.yml
+  tasks:
+    - name: create users
+      user:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - "{{ students }}"
+        - "{{ faculty }}"

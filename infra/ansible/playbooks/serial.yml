@@ -1,0 +1,11 @@
+--- 
+- hosts: labservers
+  serial:
+    - 1
+    - 2
+    - 50%
+  tasks:
+    - name: create a new file
+      file:
+        path: /tmp/serialFile
+        state: touch

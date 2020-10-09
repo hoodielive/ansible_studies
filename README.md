@@ -18,12 +18,12 @@
 11. Server11, 8GB, Ansible Node9 (pulp.rhce.lab).
 
 ### Partition Scheme ###
-1. 70Gb VHD on rootvg 
+1. 100Gb VHD on rootvg 
 * 2GB  /boot xfs 
 * 10GB /home xfs 
-* 20GB /     xfs (root) 
-* 20GB /var  xfs 
-* 4GB  swap 
+* 25GB /     xfs (root) 
+* 40GB /var  xfs 
+* 6GB  swap 
 * 14GB free space 
 
 ### IP Address Space in VBOX ###

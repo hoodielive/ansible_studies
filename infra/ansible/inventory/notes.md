@@ -13,8 +13,8 @@ Change default location: '/etc/ansible/ansible.cfg'.
 
 ### Inventory Variables Best Practices 
 1. Variables should be stored in YAML files located relative to the inventory file.
-2. Host and group variables should be soted in host_vars and group_vars directories respectively (directories must be created).
-3. Variable fiels should be named after the host or group for which they contain variables (files may end in .yml or yaml).
+2. Host and group variables should be sorted in host_vars and group_vars directories respectively (directories must be created).
+3. Variable files should be named after the host or group for which they contain variables (files may end in .yml or yaml).
 
 ### INI Example 
 ```

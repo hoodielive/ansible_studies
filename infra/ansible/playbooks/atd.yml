@@ -1,0 +1,14 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+    - name: install at
+      dnf:
+        name: at
+        state: latest
+    - name: copy httpd error_log
+      at:
+        command: cp /var/log/httpd/error_log /home/rhce
+        count: 2
+        units: hours 
+        state: present
