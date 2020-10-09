@@ -1,0 +1,14 @@
+--- 
+- hosts: all 
+  become: yes
+  tasks:
+    - name: Install Apache/HTTPd
+      command: yum install --quiet -y httpd httpd-devel
+    - name: Copy configuration files
+      command: > 
+        cp httpd.conf /etc/httpd/conf/httpd.conf
+    - command: > 
+      cp httpd-vhosts.conf /etc/httpd/conf/httpd.conf
+    - name: Start Apache and configure it to run at boot. 
+      command: systemctl start httpd
+    - command: systemctl enable httpd
