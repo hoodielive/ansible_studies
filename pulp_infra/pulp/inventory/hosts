@@ -1,0 +1,25 @@
+# control (ungrouped) 
+m01
+d01
+web02
+
+[labservers]
+pulp-m01.rhce.lab
+
+[control]
+pulp-controller.rhce.lab
+
+[dbservers]
+pulp-d01.rhce.lab
+
+[pulpservers]
+pulp.rhce.lab
+
+[ipaserver]
+ipaserver.rhce.lab
+
+[all]
+pulp-m01.rhce.lab
+pulp-n[01:02].rhce.lab
+pulp-d01.rhce.lab
+pulp-backup.rhce.lab
