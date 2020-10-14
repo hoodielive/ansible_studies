@@ -1,7 +1,6 @@
 # control (ungrouped) 
 m01
 d01
-web02
 
 [labservers]
 pulp-m01.rhce.lab
