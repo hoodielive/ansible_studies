@@ -22,5 +22,3 @@ Variables:
     * Local fact files are stored in /etc/ansible/facts.d.
     * Fact file directory can be changed using the fact_path keyword.
     * Local facts can be viewed by running the following: ansible <hostname> -m setup -a "filter=ansible_local"
-
-
