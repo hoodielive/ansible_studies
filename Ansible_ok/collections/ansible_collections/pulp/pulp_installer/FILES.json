@@ -1,0 +1,3309 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73",
+   "format": 1
+  },
+  {
+   "name": "tox.ini",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8a5c8990237675ae638098f7fba9207e72886161c7e4bf679dd1bef666751e66",
+   "format": 1
+  },
+  {
+   "name": "COPYRIGHT",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f2ca1901d35c68bff6dfddc9281876ed4d891149da1030cc174e68fd3a35989e",
+   "format": 1
+  },
+  {
+   "name": ".ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db6814dcff94e0efc2b109a50fea8163805c857bdaa277d419bbc67b692ca24d",
+   "format": 1
+  },
+  {
+   "name": "mkdocs.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5598121e32f0092c490b42ba48ef2f47eafb953d9e9cd9a0a9aea2c73a41369a",
+   "format": 1
+  },
+  {
+   "name": ".travis",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".travis/script.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "32303bcaea8c7965b31ea721b0383cb4d000bc5740a2ed6528de4439b59ce22e",
+   "format": 1
+  },
+  {
+   "name": ".travis/install.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53622b244a54eab065233af647a6229178df104ea1e0a8220924e64e3698006c",
+   "format": 1
+  },
+  {
+   "name": "pulp_installer",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "pulp_installer/doc_requirements.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "96883cf19d4b068cc9237e80400dc9a6fbff1df19564f681319ad14079f34a89",
+   "format": 1
+  },
+  {
+   "name": "pulp_installer/__init__.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "pulp-ci",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "CHANGES",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "CHANGES/.TEMPLATE.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "33d7003e8944729a5adcbbcbde30d373352880b533e91ad25d3ca70fceb59c00",
+   "format": 1
+  },
+  {
+   "name": "requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ffdc65ba9ff90080edf3db400bfc6f4b4c7d54bd2897c68abd1b5fbd3bb40fe",
+   "format": 1
+  },
+  {
+   "name": ".github",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/pulp_ci.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d1ace4ff8759a63d78e37486166ee1adefa912c145d5f7210f930a83d6d5abfc",
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/pull_request.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05cf7f9007abcfd799ef27296fb90cd0e097f96d1be5bfb8e25d23f7682e02ab",
+   "format": 1
+  },
+  {
+   "name": ".github/workflows/build_molecule_images.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c0b142a9710b8da9d26bfbf897edda633c4fb06861d3d3b75d0b38c15c491df9",
+   "format": 1
+  },
+  {
+   "name": ".github/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".github/vars/main.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a5c0ac1d03d155c5cb37df24a2a29fd2fd0f769ba48dee7f8bfa72d607ce7ee0",
+   "format": 1
+  },
+  {
+   "name": ".github/build_container.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fb36b846ec847f0054ffd9300e7402a6a4bb0cae642deeafa493d51e86f89b40",
+   "format": 1
+  },
+  {
+   "name": ".github/validate_commit_message.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "78379668ea244ac16f4a301eef924c98e78d0ce8ed516d741e7746ec2d82ff93",
+   "format": 1
+  },
+  {
+   "name": "ansible.cfg",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1820ebf68fc022badfe4413239e40a2bc1b1cbb495e0770c77c17425367d9613",
+   "format": 1
+  },
+  {
+   "name": ".gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ad16a8d8e1b6f4e3b6732f309e2ca69eaed2d7c48253e8d5e48a816de4b55d89",
+   "format": 1
+  },
+  {
+   "name": "pyproject.toml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8fa7a4ec0f68481cd4d9758e0c5d2d97769ef025f96c803ebd8ee0d3192b9924",
+   "format": 1
+  },
+  {
+   "name": "vagrant",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "vagrant/settings.ci.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1430459c456f0609e38c6a5540243ccf6b439bafafcf01884985c40865bcae7d",
+   "format": 1
+  },
+  {
+   "name": "vagrant/boxes.d",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "vagrant/boxes.d/30-source.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "99d2232d516ddd7471e5b4ae55d8cfa54ab03ef071dce02b277d3fb3040f59ab",
+   "format": 1
+  },
+  {
+   "name": "vagrant/boxes.d/99-local.yaml.example",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "18a6afb8377e6222beb1281c42d73cbbde7c53f99d1e2620e0359e7b5f9fef93",
+   "format": 1
+  },
+  {
+   "name": "vagrant/boxes.d/00-fedora.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1ceca6790392164809118a211c018ec717570f96c18a62399e806927979fb403",
+   "format": 1
+  },
+  {
+   "name": "vagrant/boxes.d/00-debian.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "93c6ec644cb2cec0362dd80e443ee87fad8056614d836f5f26e6df0080c3d8d5",
+   "format": 1
+  },
+  {
+   "name": "vagrant/boxes.d/00-centos.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "76c955a05295ca901076364579e7e615ea78fc8c33782c858b738d855a043478",
+   "format": 1
+  },
+  {
+   "name": "vagrant/boxes.d/20-sandbox.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5b0f8e2d0cc2ce9c0b957ac44a4713a5739571c3242affa5a8f808f07523ed3f",
+   "format": 1
+  },
+  {
+   "name": "vagrant/boxes.d/00-ubuntu.yaml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "62699ee84afdccc857c16a1ce0e990885759064b21733ed978d8ff7ab7a955fe",
+   "format": 1
+  },
+  {
+   "name": "vagrant/playbooks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "vagrant/playbooks/user-sandbox.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d60bebd2d9f1867411996f21b11a91f154796cdc5e525acc0b86f0fa9a8c5df1",
+   "format": 1
+  },
+  {
+   "name": "vagrant/playbooks/source-install.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05c119efc1cac38354c0e183d9d75dadc198188771c791c6e0858ac5c0d81765",
+   "format": 1
+  },
+  {
+   "name": "vagrant/playbooks/pre_tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "vagrant/playbooks/pre_tasks/vagrant-workarounds.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fad6a61eb45f427d11d806fbd9d111ea1ba5b623a506ea46ec190a711354f8bf",
+   "format": 1
+  },
+  {
+   "name": "vagrant/playbooks/pre_tasks/selinux-workarounds.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "55ab89a9539e727869e1b6270dd4e8007db6e0a346b4757ba544da32bdc740e8",
+   "format": 1
+  },
+  {
+   "name": ".ci",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".ci/submodule_check.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fc6a9e5660a30e253d05c7aa94b74dedf401eefd1018a9adb7cd1b3f8e5d3bb0",
+   "format": 1
+  },
+  {
+   "name": ".gitmodules",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "35304fe5696cbabee9c162208b7f25ec5a457c9d6c6c9b1b51fb2d28ac53fcb7",
+   "format": 1
+  },
+  {
+   "name": "template_config.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "07eed4eb298134911e742ce8929574ca9aa1325157fe07476790a8698cdcb2f9",
+   "format": 1
+  },
+  {
+   "name": "example.user-config.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f1305e2f31c2fc92c1cdd9830e9a3d4664beca27674c8bcd5236167b4f88386a",
+   "format": 1
+  },
+  {
+   "name": "docs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/index.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1aee8cb1b6789fe9e48b84f4d5e2340ad061a6eb8e25f2a57f8d1d63855029bf",
+   "format": 1
+  },
+  {
+   "name": "docs/contributing.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fe72b9925a3c66203b54d939e27e82d26e263e69a81ee05a804b557f04c90e41",
+   "format": 1
+  },
+  {
+   "name": "docs/meta_roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/meta_roles/pulp_services.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64423662f8313c03c54d61c9f9ca3fdde5569f41db3f261b99154deeaa4321cd",
+   "format": 1
+  },
+  {
+   "name": "docs/meta_roles/pulp_all_services.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ff5cb92cd0a808fde7565bc08069bfbba341b7c12dd52f4d3a548ee7baa68daf",
+   "format": 1
+  },
+  {
+   "name": "docs/CHANGES.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1a37e20ce379d4c39d9e6f20ab4541d04426c564960550987a665b1a76ed336d",
+   "format": 1
+  },
+  {
+   "name": "docs/fips.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5d7c3ca68bc15dafbdca529e9e5cb340a64e8ae731b767e55dd4283e3c9e4e62",
+   "format": 1
+  },
+  {
+   "name": "docs/quickstart.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b5bdc8932bfcaba7718f67f23d834ca264aca4fd037fec44e01797dbd24a500a",
+   "format": 1
+  },
+  {
+   "name": "docs/letsencrypt.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "39be86dc7defca8cb369b80cf900774fc978f340767c37541168d5b1e041c562",
+   "format": 1
+  },
+  {
+   "name": "docs/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/roles/pulp_devel.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fca8ce5becf71dd0de5d3759be3efa2fb1187293b199df45094f339c66c48c87",
+   "format": 1
+  },
+  {
+   "name": "docs/roles/pulp_content.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9b6c097c5f8ced2219ecec52e98fd5be4a160d3d0d96a35c2a1f891c66bf690a",
+   "format": 1
+  },
+  {
+   "name": "docs/roles/pulp_health_check.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d79d663ade7e36b84cd4da2001bb09bc98082e83b39512f77f209685c1e7adac",
+   "format": 1
+  },
+  {
+   "name": "docs/roles/pulp_workers.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5300053da89a6f7f0903308c76a64612422c0ce33799a46ae50217c9d71280a2",
+   "format": 1
+  },
+  {
+   "name": "docs/roles/pulp_database.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8ff15a90bc0e0fd6a744bd7a228879cf0695f6a637cef96537eb19a84cb3e5fc",
+   "format": 1
+  },
+  {
+   "name": "docs/roles/pulp_api.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "60aee7efea27aa16d48ea247373454e47bbbbad02b913b71fb8f26e91926a9c9",
+   "format": 1
+  },
+  {
+   "name": "docs/roles/pulp_redis.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6227b1622ef9ef470cbc2944b02fe2d4a0362390ed14b9d9dd6a311f8769b92a",
+   "format": 1
+  },
+  {
+   "name": "docs/roles/pulp_resource_manager.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8982048363be54814098899ddcf57afb2e7aad868afecc8d05562a8764401c96",
+   "format": 1
+  },
+  {
+   "name": "docs/roles/pulp_database_config.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e0d1c57808235c84bae3aa25438672d3f18931f28b7fe3c586ca2125fbbf2a76",
+   "format": 1
+  },
+  {
+   "name": "docs/roles/pulp_common.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "790aa985188c1dd9914e6d508dc517883cdfc7f0f485651c40ba5f62b706a804",
+   "format": 1
+  },
+  {
+   "name": "docs/roles/pulp_webserver.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "368260946cc4adff44323604b64f64a84c2aff2e13494ed0b1affdc22a5e41b1",
+   "format": 1
+  },
+  {
+   "name": "docs/prereq_roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/prereq_roles/pulp_rpm_prerequisites.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0a9c167db1641ddceaa366022441e473d5fa924a66d804d10e596210cd3c74c7",
+   "format": 1
+  },
+  {
+   "name": ".yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5eda562b50611d74b3736804eadb5f30a5d27dcc0faead6ef9480fd87c4353c5",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "eb3031e2e12ce90b508d1672a52a1a1e870b976ec9b125119af2713186cfc86a",
+   "format": 1
+  },
+  {
+   "name": "COMMITMENT",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3b99a0617643f1e0a80611a9efb2331c6a1021c28d63b2eacef965c3a4e275b1",
+   "format": 1
+  },
+  {
+   "name": "RELEASING.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b641b10491f73f038bdc0e66f89e8974ebf5f5c23b1888dd562709a463bcd8e3",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a31726047605ef302e7fba7aa9c8ce6afe6b19956ee6df73cd3760a4aa20ce86",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f4496467c860a80d4b64fae3a23b2c4b6e70206718a1e679c61a168394698424",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8e1c1e75ee3cfb7b746369c11e19a7c688419c3fc496d3b36b25f28b8ba2e63d",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/vars/RedHat-7.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "80c86a0b199e1501c36f304640b2ce959ab8d55faa35f4b18fb1bbc80712b208",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/vars/RedHat-8.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c3573b0495efe1aaaa7d83337ae6dfa51277828af8082f9d7c96edb6d674ad18",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/vars/Fedora.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c3573b0495efe1aaaa7d83337ae6dfa51277828af8082f9d7c96edb6d674ad18",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cb12e8d6c0772eb94bbc38daca7e77a67f7e82a032d9a285c12b05a0cc1b21cd",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/vars/CentOS-7.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "80c86a0b199e1501c36f304640b2ce959ab8d55faa35f4b18fb1bbc80712b208",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/vars/Ubuntu.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "18c5f5e7860e5121acae514d3ba43b608d53a525f430a9964d0c134aed228a53",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/vars/CentOS-8.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c3573b0495efe1aaaa7d83337ae6dfa51277828af8082f9d7c96edb6d674ad18",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bd30306903c3660ffaf6c7125b7f93018eb82dcc5615dbf623387ea08e437041",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0a9c167db1641ddceaa366022441e473d5fa924a66d804d10e596210cd3c74c7",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_rpm_prerequisites/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f4441676748a467fccc6c2b76b7f061823fb5e9deaebf44e921808ba41680e13",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "efbbcd8dbd4a99c2c8c85b9ffdffba86f20de3c5790f3e8730b9783c81c2495d",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b09da817f6a672ebe62dc3ddbae49809d2d3bce6eea3b96d8bb7400943718c02",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "444c7bce3494f29e86a85b8d240931c7aca90b45bdb9dd895be33992492fb37d",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5300053da89a6f7f0903308c76a64612422c0ce33799a46ae50217c9d71280a2",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "979631bb3d55f20ed427c3f41fb14d8569512840c39e6b9600379a2f817c6b98",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_workers/templates/pulpcore-worker@.service.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c1fe4cd96901b9d0ff9e723828055cbc02ea14955f62d2790f5d575c5862188f",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "316a07cbc392fd26f6e6b72f883423634922818b67b480094a24820f86424a22",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5b9ab87cb1ec2be9a0fcf8a2a23caedca9d72f18d7b48638de496bc007a06207",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/vars/CentOS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "49a2ecec1b410b00b56e3ad95bd59b4c2a0500f6470d1c8c23d67244c9bde741",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/vars/RedHat.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "49a2ecec1b410b00b56e3ad95bd59b4c2a0500f6470d1c8c23d67244c9bde741",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/vars/Fedora.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "49a2ecec1b410b00b56e3ad95bd59b4c2a0500f6470d1c8c23d67244c9bde741",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/vars/Debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "698c78a49a3333ac7bd6241bee06f470326298022a5cfb0e687a9e7d97124e06",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/vars/Ubuntu.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "85ed76c59dfebb932f65b1b4bd1cca2b43a99a47707443e8784b980660669cbf",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b273b2ad05085740ca7e231f8fdbb63c3cb6efd0d0c8f16999282fa91d3ec56b",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6227b1622ef9ef470cbc2944b02fe2d4a0362390ed14b9d9dd6a311f8769b92a",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8213bb5f28e426b43c9a8ac2248ac2ea20f25ec2ff2475ad25be318beff82596",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/tasks/configure_uds.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "07882d9134cc2920a39feacb1f12a8ede6051ae4fcce76085cbae7e8d1514c44",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/tasks/configure_tcp.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "97a843ab1b6a2b42405d8548fdd8ee87041505cdd3026a19155d5a3e17e10234",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_redis/templates/redis_scl_profile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "85977973a3f22ba6d83753003810f86d75e46ad3209bcc8643618222e2a5ccad",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e6b9e138091df207e1f7b55f162bedb1656bf60d9af8a3d7c3b4c9a10e885584",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2317c006d2112df131ff03a407f195e9c29982d5fce59201c3e7d0be0dc8338f",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "454273babe58c190d9e4d5f8dafa0c6b1795d32e0603b3dcfb3bbfce3089f2f4",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6e3cc74ff399e46dac879727b1fb88f69b995212c96008519b884f71efc6dbde",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ff5cb92cd0a808fde7565bc08069bfbba341b7c12dd52f4d3a548ee7baa68daf",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_all_services/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9e77084cc9d75235f01dce01f53a34bdb93ad80122903cd4c74469344332c0ab",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fcd92fea8478ca4e1766ca8c528608bcdffa355b10f657dbca19f9f373bcca9a",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b95398839bbb24b0aa0e790bf6d92a1f903e274bde0522abe8e4164c14a5d0a0",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8a4f7cfffe20f3cc7eb91b24fccfea81ae23f69e0f0f29d186ef67d7dab87d4e",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "00dcf9b3544cd673ad1e794de8154907ab02b9565df91aff8fa6e3d9654d547f",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "60aee7efea27aa16d48ea247373454e47bbbbad02b913b71fb8f26e91926a9c9",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/tasks/import_token_auth_key.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e49126958859ead373c1fff6e8b043d6993de726919fd9d9541910b7378d03b2",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "71749c6d9c7eff2d3ed4bb003f99f5867b113b5bce9292c0304ccf5a258480f9",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/tasks/generate_token_auth_key.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "08868fdfb128fe11b4e78f72a919b84726ef16db989815d0dd6271cb75bfc61e",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_api/templates/pulpcore-api.service.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2b74db9e4df63a8fc1f9502c01d64cfb120b3e350d65cc9cfa1a7feef06ea0df",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database_config",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database_config/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database_config/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "90a9c60b30fbfead139715fb0a7bc812ca5ed1515f18b90bac8a5f825762bda1",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database_config/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database_config/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cefceadac52f544343e38cea98500469aaaaf97f89ea8a954bedf2772d926807",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database_config/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database_config/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f52d711103d50a437830c6fbcd04fb4bab49a0f82f6d26d1c791c6e8488dd090",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database_config/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e0d1c57808235c84bae3aa25438672d3f18931f28b7fe3c586ca2125fbbf2a76",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database_config/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database_config/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0428525a7ad1bb1717d334b23b84c3642b0cd8b5822f9762a779864e46cc2092",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fa7baa0fea5a804c40175e3c3fd75f8f4483f2161d75259903449375d71ce187",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b459e5750e3693ac6e04b57f943ebfa1211b111863e301870b619d64cf6c4a26",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/vars/RedHat-7.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "484ad8a152a3f37575820bdb52d63bcd997207b7cba9979008c34d4c486e33fd",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/vars/Debian-10.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2d513da25300ba9f3c4a2b092a18f0d4bf3b32dc93b3072cbcef99e23f00831d",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/vars/RedHat-8.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "561a8ef270950f0a9cb276e059cc74d9a0e42224a8cfc7a9f0205df79ea80d22",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/vars/Fedora.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "561a8ef270950f0a9cb276e059cc74d9a0e42224a8cfc7a9f0205df79ea80d22",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/vars/CentOS-7.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "484ad8a152a3f37575820bdb52d63bcd997207b7cba9979008c34d4c486e33fd",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/vars/Debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e6633729230bfa92ad883aeee43d1ede79949da90267df0188456791ee2286f8",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/vars/Ubuntu.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e6633729230bfa92ad883aeee43d1ede79949da90267df0188456791ee2286f8",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/vars/CentOS-8.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "561a8ef270950f0a9cb276e059cc74d9a0e42224a8cfc7a9f0205df79ea80d22",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/files/check_snippet.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aea68f51db7487ab17de94fc015ddf06830307f7826ce3782b2f3c7dd12d3413",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "36d1b8b3b8f2da17753563cc12471d80ad6ee1905011d67ae3a5542a43e3eea0",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "368260946cc4adff44323604b64f64a84c2aff2e13494ed0b1affdc22a5e41b1",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/tasks/nginx.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "862a684159b4f67306f020d4c1d88c2588ce66227c4f13f7d362ca45d8126b58",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8907a891a03187f99da03f21f737366b3e4e566555371d722481a755964cd56f",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/tasks/import_certificates.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7f4ed7ba4aecdd612100e12767ced2f3f0064b5f62261848200407d07e99ee57",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/tasks/firewalld.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e8272f2497e2697f9296ed791037e1f7d08d09612a92de6ed85181beb00c6490",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/tasks/generate_tls_certificates.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e6f3d410cc13191e19299a96b9b9b0e8dfe0b2b891eb144c5a157fbf3a136c51",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/tasks/apache.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e9f403a01da6a35cee15a7d16e5baf8dd5262a52e752484cb020c89fb00a1eeb",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/templates/nginx.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "583010459366d90faf067784b6464f7c853efde632b525c71b7478287f3fdd1e",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_webserver/templates/pulp-vhost.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e9faf150d26ae1d3c7326bed37acaf10a9965cc81fe268faa6af14a116cb3177",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "16b0960aa1322f9aecda0170f38c6464e574999189abbf66466e994b79cca2bf",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7cb45a3304ffc870cb828908e12121f115749e8ddac71a4aebbd932cb17e2d82",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/vars/RedHat-7.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "866b2a2135c74b89634f36569cd37eae2ab7e507574ebc95702485fd892dc6ef",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/vars/Fedora.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "36ee438772752c57c1a16a3643e6e722d9bf43df3e81841154b5c0d1e77d9ea0",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/vars/CentOS-7.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "866b2a2135c74b89634f36569cd37eae2ab7e507574ebc95702485fd892dc6ef",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/vars/Debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53323636005c239a504affdc39554d2d8921eea44ea263c5b07198852f79bc3f",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/vars/CentOS-8.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8863e3d447289af7131da2e94644df7de75f928799f05f7ee896b2e29a01b344",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/files/fzf.bashrc",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8a218c2336f1e393ca1131f889d0c979fabb041031346e348d8e643962663870",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/files/settings.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5b6a214140f632f2eee9c4806abb5ce9e53a5257aeae2f500e61b09382754927",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/files/vimrc",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e5dfbb1c71a2855ccccd7cea5d8f1c84240975156111ecbe6e82bedc54baf1f8",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/files/motd",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c3a8a95af23878cc1b229abf90437e4a910e63914a3f687b119b323c69299bfe",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fca8ce5becf71dd0de5d3759be3efa2fb1187293b199df45094f339c66c48c87",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/tasks/install_basic_packages.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d283e838cb7cc127b4dc9ce9eb62fb466775fcd64eb7d2006a75fc5b252ffe61",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/tasks/install_docs_requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e5305932331b91a9b3ecfe7cfdb03e1cf51134eeeacb88b502dfe0a6b7863267",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/tasks/install_podman.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5024ad52dfd4f39cbd23e0504c96c3cc7ae3b98f7d5e5b9f5991c905693ebe11",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/tasks/galaxy_ui.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ff99fb8942d12929aec1faf9daf001f4d348724d95c28179019fbb9654841c9e",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/tasks/bashrc.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7de08a9ecf2c747e5b01ebc1737a8a7e5fcda091eac9ae970b204e692bd9a217",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9cec7bc53089035fee103544c99337926c3c9dea982168247e9fdb30fa3d5f11",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/tasks/config_files.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c3db4dab8e1830942646cbf58fb50317197e6077ea17135e5ef634a6cc78a957",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/templates/venv.bashrc.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0aad68cb4a036a892f788cbd798bdab9014cd436d1a7a6d3e131476775ddd107",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/templates/alias.bashrc.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1fff67fb868890faa9fd7f02a6e9e6f23379f9200f9aa52d61f42e081154737f",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/templates/netrc.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ecf12ca844603812aca30117aa018fc9ae30c8ad4d60902c88641c58eb0e601",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_devel/templates/django.bashrc.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3778afbdbb14b75b1a022fd9918c351e385c947bd38af8d2b80caf895ee56033",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "38bc814399c86816e747c1c4c0389e343da64ecc5ca94bf01694ce5c40576d83",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9499de1925039333a48cfe48564d089b358cbcd5a4ddf509706d0e605040f63f",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5b5eb06783e9e963b9dc7f3f91f4daa65180f2cbf89905460c7644d2025b10d5",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9b6c097c5f8ced2219ecec52e98fd5be4a160d3d0d96a35c2a1f891c66bf690a",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7745fc1d4c9bbf4aa3b28e3a48820bc92447b07b90f0c13e6e16b0d851cdabf5",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_content/templates/pulpcore-content.service.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d529c55660b61fd2e0c41741222bef201b5a455f4608d4e93a719261bdbfabb2",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_health_check",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_health_check/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_health_check/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6077adb2b2bb0268cfa21e8622a8ef39c600c5eb490d8bfddb876aa1c2430607",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_health_check/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_health_check/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7a34e8a08fb8bd1ec670e195d7a3433e54874a1c2f5518273abe5800461bf656",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_health_check/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d79d663ade7e36b84cd4da2001bb09bc98082e83b39512f77f209685c1e7adac",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_health_check/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_health_check/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "98d8dfe76b52d9650c599c9fa4b0c99d33df11dbf25cc1c5169e9277a41e7d55",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f1e58de195082a12b5c203084fe966bb5416bdbd50206aeb8eccd471ae27e874",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "29635eacf60b980366bd4d8ed34b714300731144ad6acf4c11b59630018aac87",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/vars/RedHat-7.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "afb6efd88d1f10c418917a6e5e9c2053b15959d857acdb682d86683967f0ec65",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/vars/RedHat-8.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e371f2b23fe9633496aeae25bdaa8134f8ee105fdf52eef1d39d19b3f95ff7e7",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/vars/Fedora.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e371f2b23fe9633496aeae25bdaa8134f8ee105fdf52eef1d39d19b3f95ff7e7",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "838dd96becd67ad77009492dd074b779f3f8016b1f4d7b41fb0aa579e58fc6ec",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/vars/CentOS-7.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "afb6efd88d1f10c418917a6e5e9c2053b15959d857acdb682d86683967f0ec65",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/vars/Debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a5584f456e42371876ada929474a4ba952a31fcf01dc820990b30fdbb2c99f18",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/vars/Ubuntu.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "509142ba3800104ad67f59b9f30212102f5623b6e83cb59dcfb2e83cbfb4b66c",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/vars/CentOS-8.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e371f2b23fe9633496aeae25bdaa8134f8ee105fdf52eef1d39d19b3f95ff7e7",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/handlers/restart_all_pulp.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1436b635dd9e9db3cc24e6636778c6e6f1d5888fa1b4000287db8a7434c29531",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cd3388e0b5b4960d69b261c11df29d78dd19412c954875cbf975aab15723b2bb",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "790aa985188c1dd9914e6d508dc517883cdfc7f0f485651c40ba5f62b706a804",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/tasks/ambiguously-named-repo.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "06f535cda4af916b41b13366ab1fe34e17873ce295c6a68b4b51ea1ddf54eb9c",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/tasks/install.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "32443058987249d23b8d8b831099689ae882fec2a5686221c741cdf14bfb2780",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a221849af68a82d8a48efa54a2688fb5bd4c0b835ac668a028b54e5ac5855908",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/tasks/preflight_function.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b72df7a897340f3ad06ed6e6788a6413b2dee1a9d7ed95487bf55e46b397662f",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/tasks/configure.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d5954fc4356e7ec0a04470d90a02c7b9f80399a73a0d2b804a6fc7c4391fb2a6",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/tasks/install_packages.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b2cb2eade6b0c75bb55e8640675f123a5edc4a49df5fcd3c378e4e50eadd6386",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/tasks/install_pip.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "583d4132f4acb41b0f5f09e2eff514b28bc6970656cd7fc9eb5a565ad48a8e78",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/tasks/repos.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c45acefc2ab4c71eaca021196c6a5ccfa25ca3e1b8e0d2398addb76ae02d8d8e",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/templates/pulpcore-manager.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a8153a6267dfe2a07e5fe5ddefbe2ba5716e1eb1b3d1f55e1fc7ae9111c9e416",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/templates/requirements.in.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9c700d4536ce3fd1bf08289dec34d839aef07ec2fe3eac0bdd79980784c5f79d",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/templates/pip_constraints_for_plugins.txt.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "882da1ab051522a7431a5305864aebd9c6ee4459b79cc92ee9a4a529ea0a0b6e",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_common/templates/settings.py.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7b96097e2a279ec60a4f7e55339c16c3021570032677b7ddb4df6e103484790b",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c733824d436c62d3f9d0ed39e736064dd8c9d6ac5a7a786f7c1b5b78cd45346a",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d2859515494448f72e7090e9cbbf01a7e1fb5a1ee88311cf90f7bf45859e9601",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6de00cb1fea492a81442e5f555e658e776f080fa8ef98fcc2c31a6aaa75374a1",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8982048363be54814098899ddcf57afb2e7aad868afecc8d05562a8764401c96",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3726baf1a44a3fc2729389fa8289555972b9364f24a04a8af8db8ca113147b30",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_resource_manager/templates/pulpcore-resource-manager.service.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ade8b75f57e31acaa42ec22f285a02eb4773a513ec2dd7b0e44640c8e46b8a26",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fbee6a2bae5bd29956704e4a2c34dd87c40dc6955ad9c99ef48660dacc28cedc",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a8ffaf5917f9fe978dc46aa8e1b74230af2ac42dbf5a0f02d0feca33608c06b5",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/vars/RedHat-7.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6808e0aa32c02d32bc425aff12d721df40904689d68871693d5324eaa3cb0d06",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/vars/RedHat-8.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f52d711103d50a437830c6fbcd04fb4bab49a0f82f6d26d1c791c6e8488dd090",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/vars/Fedora.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f52d711103d50a437830c6fbcd04fb4bab49a0f82f6d26d1c791c6e8488dd090",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8e08a9849d4314aeaef5538e18849c2ebf6654da1642a0f883325d616c8734e9",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/vars/CentOS-7.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6808e0aa32c02d32bc425aff12d721df40904689d68871693d5324eaa3cb0d06",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/vars/Debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "16c1f058fc92ca711fc2a9705208fad7a132969a2d6b538c40fbd2a3f556e0a2",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/vars/Ubuntu.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "16c1f058fc92ca711fc2a9705208fad7a132969a2d6b538c40fbd2a3f556e0a2",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/vars/CentOS-8.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f52d711103d50a437830c6fbcd04fb4bab49a0f82f6d26d1c791c6e8488dd090",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8ff15a90bc0e0fd6a744bd7a228879cf0695f6a637cef96537eb19a84cb3e5fc",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "efa24e73779a7ac487ce0654eb754ce31d0cb62edc625e1b58c1eb0e1ec21017",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/tasks/install_postgres.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "940e9ce3ac65e94197ce9fc75a9a927e2d2721f982e87e529660583507465542",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_database/templates/postgresql_scl_profile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5dc110d847e677c1d972ca7f55ced82b0812d508bac4cc95bce3dba02ed3701f",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5c1626126189ec48d3c65e7647830d50ac5fd0fe8d6674a2bc00a09fbb0b4cf0",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "71eba7da1d99f8b85c5c5dfcbfae38b2526ce73e92e94a2c9ed1ff06db14b713",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ba4292a0db9cec9ab9f057c67c8a320ebfc34ffe7a562d9d7b37e0ce0f8a8cc",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "29f95ea7cac0bf44b96b4e2cb5ce9c1e08efc643baafcff23a557840984a570f",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64423662f8313c03c54d61c9f9ca3fdde5569f41db3f261b99154deeaa4321cd",
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/pulp_services/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "69d8f1a7f3601eabcd09052f9efc947ee578ee6b0ed3147de1362060641c09eb",
+   "format": 1
+  },
+  {
+   "name": ".travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9c8957f68eeeb21da7f4a52e9ce7e1158f9b97eb8a89b6c606c6e70af7d931ca",
+   "format": 1
+  },
+  {
+   "name": "Vagrantfile",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f26a81eef2fee1f2dc5681dc8ee2060f58d0404a03327b85c6e2aba0225e72dd",
+   "format": 1
+  },
+  {
+   "name": "molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/tests/test_default.rb",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05645c863256b6067000cba8b22ecb928e210c5961a9648a2fb366c818617ea5",
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/Dockerfile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7b4d593c430a146812f1fe1d14b4d9cc51f384f9b85c550a989b9936ef756e43",
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/host_vars/debian-10",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "39b4b2d9837dbaecfa55e60427b41b09180e7fb3087cae0fd769fe267a08eb1f",
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/host_vars/fedora-30",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05a3368593b2edb64e1b146968fba3627d54b22d866a91bb870f7c4b71f89782",
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/host_vars/fedora-31",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05a3368593b2edb64e1b146968fba3627d54b22d866a91bb870f7c4b71f89782",
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/host_vars/centos-7",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2a691562de89d058d9a2163a4c46df70bcb1d9ea8d796a24feeee7bba8681a6f",
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "464d6e0d06cc11a999512e584a426682653da9b75c3fd7487624756f4c9c3e96",
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/debian-redis-server.service",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95d343602471a1903d81a999fc2d52e1b0fc75ce7e9f4223bfc608995cda7811",
+   "format": 1
+  },
+  {
+   "name": "molecule/scenario_resources/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4d1f0faed9222378be4f60ba07873c5f75c3e587748bb37554e51bd7c60318b",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0113a5203492ac1d313b38d099d00cd1a4ee555b2882c0f3264ee788cd5b3481",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db6814dcff94e0efc2b109a50fea8163805c857bdaa277d419bbc67b692ca24d",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53ae16b9f995e7d9746bf3175e495acad72b168fd3423ec39ae3a4124f9d1385",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "504544d1fe3052f4395176d990b90a2c761236346127a88729135a47d07b36a1",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ffdc65ba9ff90080edf3db400bfc6f4b4c7d54bd2897c68abd1b5fbd3bb40fe",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/host_vars/debian-10",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e75227dffaf0b60fc17d0d7fc8196af11297acf12431c98c79635369a5e99e21",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "55661b28d79e3554b9d1e7a5884d747ca071e3e1db8d724034625395cd76ec52",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/debian-redis-server.service",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95d343602471a1903d81a999fc2d52e1b0fc75ce7e9f4223bfc608995cda7811",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-static/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4d1f0faed9222378be4f60ba07873c5f75c3e587748bb37554e51bd7c60318b",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d5c2e323a19285bd053edd8a3b9fd471cfbdb946a06af00cabab3bddc0c8983c",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db6814dcff94e0efc2b109a50fea8163805c857bdaa277d419bbc67b692ca24d",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "532e2769ec0f654b62336c2f29679cc628f1ddf7c54bdc9c3de6ad57a3d2c0b1",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "87ae03f86a81c260f42d08160c84ce5268a8dc320855ea9632ecfeb96a541805",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ffdc65ba9ff90080edf3db400bfc6f4b4c7d54bd2897c68abd1b5fbd3bb40fe",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/host_vars/debian-10",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5d1f6a55cb2f4113df6f0b23ca003dd69e7cb5596566b6d9bb7722f44496d3fc",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "783482f41a62dccd6e23806c26d2a44461e935fab472db5fed7265135a093ecf",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/debian-redis-server.service",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95d343602471a1903d81a999fc2d52e1b0fc75ce7e9f4223bfc608995cda7811",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-upgrade/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4d1f0faed9222378be4f60ba07873c5f75c3e587748bb37554e51bd7c60318b",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f06b3f944992e6b6039b097dbc32220a4a3fefc806f9face9264bf3293784998",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db6814dcff94e0efc2b109a50fea8163805c857bdaa277d419bbc67b692ca24d",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f15a90441e67972a3871cfeac199688cf886d4738cb9f35e4b0a04b1eee18243",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "87ae03f86a81c260f42d08160c84ce5268a8dc320855ea9632ecfeb96a541805",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ffdc65ba9ff90080edf3db400bfc6f4b4c7d54bd2897c68abd1b5fbd3bb40fe",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3e09840a2851af1f2ba935f1d8e5b8c54e8f9533f6919e4574eb85851f415fc2",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/debian-redis-server.service",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95d343602471a1903d81a999fc2d52e1b0fc75ce7e9f4223bfc608995cda7811",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-dynamic/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4d1f0faed9222378be4f60ba07873c5f75c3e587748bb37554e51bd7c60318b",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f06b3f944992e6b6039b097dbc32220a4a3fefc806f9face9264bf3293784998",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db6814dcff94e0efc2b109a50fea8163805c857bdaa277d419bbc67b692ca24d",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "532e2769ec0f654b62336c2f29679cc628f1ddf7c54bdc9c3de6ad57a3d2c0b1",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "87ae03f86a81c260f42d08160c84ce5268a8dc320855ea9632ecfeb96a541805",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ffdc65ba9ff90080edf3db400bfc6f4b4c7d54bd2897c68abd1b5fbd3bb40fe",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/host_vars/debian-10",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dac18ed917316bb0ae944355ac9f957076e207fca2624f3a19b63aa8a19c9f62",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "02f3347451dec13154a6ddf71cbbc899f7a0397d8fe2c61c8535d676f0f743b9",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/debian-redis-server.service",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95d343602471a1903d81a999fc2d52e1b0fc75ce7e9f4223bfc608995cda7811",
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/source-static/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4d1f0faed9222378be4f60ba07873c5f75c3e587748bb37554e51bd7c60318b",
+   "format": 1
+  },
+  {
+   "name": "molecule/default",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0113a5203492ac1d313b38d099d00cd1a4ee555b2882c0f3264ee788cd5b3481",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db6814dcff94e0efc2b109a50fea8163805c857bdaa277d419bbc67b692ca24d",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "63fde0a7b4f94c1caaf584743664ab26e6ee7365f0e0f23ae7dcbc3d9b00663c",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "504544d1fe3052f4395176d990b90a2c761236346127a88729135a47d07b36a1",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ffdc65ba9ff90080edf3db400bfc6f4b4c7d54bd2897c68abd1b5fbd3bb40fe",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9bfc61373d0976048036a3c2e5f48a35ae357ab7e5ef4f779722f41de1a4089e",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/debian-redis-server.service",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95d343602471a1903d81a999fc2d52e1b0fc75ce7e9f4223bfc608995cda7811",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-dynamic/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4d1f0faed9222378be4f60ba07873c5f75c3e587748bb37554e51bd7c60318b",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9311805853ceb043aa126b81bebe667d3b3adac627b866552e6a887f3d4bf835",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db6814dcff94e0efc2b109a50fea8163805c857bdaa277d419bbc67b692ca24d",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "63fde0a7b4f94c1caaf584743664ab26e6ee7365f0e0f23ae7dcbc3d9b00663c",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "504544d1fe3052f4395176d990b90a2c761236346127a88729135a47d07b36a1",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ffdc65ba9ff90080edf3db400bfc6f4b4c7d54bd2897c68abd1b5fbd3bb40fe",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/Dockerfile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7b4d593c430a146812f1fe1d14b4d9cc51f384f9b85c550a989b9936ef756e43",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8873b9592761608e6a39756fe25074398d3f9d976c8e96c01b154340874b546e",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/debian-redis-server.service",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95d343602471a1903d81a999fc2d52e1b0fc75ce7e9f4223bfc608995cda7811",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-dynamic/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4d1f0faed9222378be4f60ba07873c5f75c3e587748bb37554e51bd7c60318b",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9311805853ceb043aa126b81bebe667d3b3adac627b866552e6a887f3d4bf835",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db6814dcff94e0efc2b109a50fea8163805c857bdaa277d419bbc67b692ca24d",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53ae16b9f995e7d9746bf3175e495acad72b168fd3423ec39ae3a4124f9d1385",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "504544d1fe3052f4395176d990b90a2c761236346127a88729135a47d07b36a1",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ffdc65ba9ff90080edf3db400bfc6f4b4c7d54bd2897c68abd1b5fbd3bb40fe",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/Dockerfile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7b4d593c430a146812f1fe1d14b4d9cc51f384f9b85c550a989b9936ef756e43",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ee877e4b9ef0478527a8c1b18517f0c2052983819d10023ea417f44992a1da77",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/debian-redis-server.service",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95d343602471a1903d81a999fc2d52e1b0fc75ce7e9f4223bfc608995cda7811",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-static/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4d1f0faed9222378be4f60ba07873c5f75c3e587748bb37554e51bd7c60318b",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "df52442fd4c2cef2985b938e91c36ee62db87687e4047d2fe9316c6bdc98bd08",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db6814dcff94e0efc2b109a50fea8163805c857bdaa277d419bbc67b692ca24d",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53ae16b9f995e7d9746bf3175e495acad72b168fd3423ec39ae3a4124f9d1385",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "504544d1fe3052f4395176d990b90a2c761236346127a88729135a47d07b36a1",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ffdc65ba9ff90080edf3db400bfc6f4b4c7d54bd2897c68abd1b5fbd3bb40fe",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "78f9db2caf9a2b2c9c566563bd8db15d0706a538019c6e930af729e35a429ef9",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade/debian-redis-server.service",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95d343602471a1903d81a999fc2d52e1b0fc75ce7e9f4223bfc608995cda7811",
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/packages-upgrade/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4d1f0faed9222378be4f60ba07873c5f75c3e587748bb37554e51bd7c60318b",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8d52f13fba35913535808b00975888e55e3d3f9f40d8e6f8ce485a2a6599f875",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/.ansible-lint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db6814dcff94e0efc2b109a50fea8163805c857bdaa277d419bbc67b692ca24d",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53ae16b9f995e7d9746bf3175e495acad72b168fd3423ec39ae3a4124f9d1385",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/prepare.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "504544d1fe3052f4395176d990b90a2c761236346127a88729135a47d07b36a1",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/requirements.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ffdc65ba9ff90080edf3db400bfc6f4b4c7d54bd2897c68abd1b5fbd3bb40fe",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/host_vars/debian-10",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6ac1e39edeae0d0f63589f3c6ed269f5578619e44d91a2baabf1a253504f3b5f",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cc849646c9d42f14be1fd623f07867b5e6a96b4a44555b49193c71616f725485",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/debian-redis-server.service",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95d343602471a1903d81a999fc2d52e1b0fc75ce7e9f4223bfc608995cda7811",
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/release-upgrade/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4d1f0faed9222378be4f60ba07873c5f75c3e587748bb37554e51bd7c60318b",
+   "format": 1
+  },
+  {
+   "name": "playbooks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/example-source",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/example-source/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/example-source/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0a70f35abdbb4ed7a915dfd442e5a4fa537ef96e0b90acb05ac0953433237744",
+   "format": 1
+  },
+  {
+   "name": "playbooks/example-source/playbook.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "532e2769ec0f654b62336c2f29679cc628f1ddf7c54bdc9c3de6ad57a3d2c0b1",
+   "format": 1
+  },
+  {
+   "name": "playbooks/example-use",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/example-use/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/example-use/group_vars/all",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "154a33285da09a4c2595d69d9730180c0d6d7079fdcb0152a64874774f17747a",
+   "format": 1
+  },
+  {
+   "name": "playbooks/example-use/playbook.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53ae16b9f995e7d9746bf3175e495acad72b168fd3423ec39ae3a4124f9d1385",
+   "format": 1
+  },
+  {
+   "name": "forklift",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "example.dev-config.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "56864549d3014b8967fc3613e75ac360db813d9498859dff5411c9b63a9809d2",
+   "format": 1
+  }
+ ],
+ "format": 1
+}
