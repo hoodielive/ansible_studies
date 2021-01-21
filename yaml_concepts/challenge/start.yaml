@@ -1,0 +1,21 @@
+# Sort the items by category and by color.
+
+# Add total at the end.
+
+items:
+  - banana
+  - orange
+  - strawberry
+  - broccoli
+  - cabbage
+  - grapes
+  - carrot
+  - tomato
+  - peppers
+  - watermelon
+  - lettuce
+
+fruit:
+
+
+veg:
