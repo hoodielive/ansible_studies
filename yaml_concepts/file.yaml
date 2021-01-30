@@ -1,6 +1,5 @@
 --
 # Yaml Files consists of lists and dictionaries
-
 shopping:
   - eggs: 1
   - milk: 2
